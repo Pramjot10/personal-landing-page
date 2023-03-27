@@ -1,0 +1,125 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: black; /* Set background color to black */
+  color: white; /* Set text color to white */
+}
+
+/* Header styles */
+.c-site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* Center the main title */
+  border-bottom: 2px solid white; /* Add a border to the header */
+}
+
+.c-site-header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+nav[aria-label="Main Site Links"] {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav[aria-label="Main Site Links"] ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the list items */
+}
+
+nav[aria-label="Main Site Links"] li {
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid white; /* Add a border to the list items */
+}
+
+nav[aria-label="Main Site Links"] li:last-child {
+  margin-right: 0;
+}
+
+nav[aria-label="Main Site Links"] a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav[aria-label="Main Site Links"] a:hover {
+  text-decoration: underline;
+}
+
+nav[aria-label="Main Site Links"] li a {
+  color: white;
+  padding: 5px;
+}
+
+/* Main styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Video styles */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer styles */
+.c-site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* Center the footer content */
+  border-top: 2px solid white; /* Add a border to the footer */
+}
+
+
+
+
+
+
